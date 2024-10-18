@@ -61,6 +61,7 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation ("io.coil-kt:coil-compose:2.0.0")
     implementation ("io.coil-kt:coil:2.1.0")
+    implementation(libs.androidx.navigation.compose)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
