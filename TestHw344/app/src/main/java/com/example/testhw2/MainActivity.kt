@@ -1,5 +1,6 @@
 package com.example.testhw2
 
+import NavigationToFirstPage
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -13,7 +14,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             MaterialTheme {
-                BottomNavigationPage()
+                NavigationToFirstPage()
             }
         }
     }
@@ -23,6 +24,6 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun PreviewHomeScreen() {
     MaterialTheme {
-        HomeScreen()
+        NavigationToFirstPage()
     }
 }
