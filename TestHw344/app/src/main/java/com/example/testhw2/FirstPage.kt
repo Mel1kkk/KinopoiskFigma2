@@ -16,7 +16,7 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.material.Text
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -43,9 +43,9 @@ data class First(
 
 class FirstViewModle : ViewModel(){
     val pages = listOf(
-        First(R.drawable.on1 , "Узнавай \nо премьерах"),
-        First(R.drawable.on2 , "Создавай \nколлекции"),
-        First(R.drawable.on3 , "Делись \nс друзьями")
+        First(R.drawable.photo1 , "Узнавай \nо премьерах"),
+        First(R.drawable.photo2 , "Создавай \nколлекции"),
+        First(R.drawable.photo3 , "Делись \nс друзьями")
     )
 }
 
