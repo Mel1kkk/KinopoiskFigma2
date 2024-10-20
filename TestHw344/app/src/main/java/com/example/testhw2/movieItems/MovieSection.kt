@@ -1,4 +1,4 @@
-package com.example.testhw2;
+package com.example.testhw2.movieItems
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column

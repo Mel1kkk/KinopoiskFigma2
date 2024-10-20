@@ -32,8 +32,7 @@ import androidx.navigation.NavController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.myapplication.BottomNavigationPage
-import com.example.testhw2.HomeScreen
+import com.example.testhw2.navigation.BottomNavigationPage
 import com.example.testhw2.R
 
 data class First(

@@ -1,4 +1,4 @@
-package com.example.testhw2
+package com.example.testhw2.entities
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable

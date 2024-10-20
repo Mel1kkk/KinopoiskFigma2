@@ -1,4 +1,4 @@
-package com.example.testhw2
+package com.example.testhw2.pages
 
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.height
@@ -7,6 +7,15 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import com.example.testhw2.entities.SkillCinemaText
+import com.example.testhw2.movieItems.MovieSection
+import com.example.testhw2.movieItems.dramaFrance
+import com.example.testhw2.movieItems.popularity
+import com.example.testhw2.movieItems.premieres
+import com.example.testhw2.movieItems.serials
+import com.example.testhw2.movieItems.top250
+import com.example.testhw2.movieItems.usa
+
 
 @Composable
 fun HomeScreen() {

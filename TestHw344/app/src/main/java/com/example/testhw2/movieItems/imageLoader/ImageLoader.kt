@@ -1,4 +1,4 @@
-package com.example.testhw2
+package com.example.testhw2.movieItems.imageLoader
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.size

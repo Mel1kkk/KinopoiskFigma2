@@ -1,35 +1,25 @@
-package com.example.myapplication
+package com.example.testhw2.navigation
 
-import android.os.Bundle
-import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.graphics.Color
 import androidx.compose.foundation.background
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.material3.Text
-import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.sp
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.ui.draw.clip
 import com.example.testhw2.R
-import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
-import androidx.navigation.NavHost
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.example.testhw2.HomeScreen
-import com.example.testhw2.ProfileScreen
-import com.example.testhw2.SearchScreen
+import com.example.testhw2.pages.HomeScreen
+import com.example.testhw2.pages.ProfileScreen
+import com.example.testhw2.pages.SearchScreen
 
 @Composable
 fun BottomNavigationPage() {

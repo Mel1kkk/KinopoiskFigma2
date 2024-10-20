@@ -1,4 +1,4 @@
-package com.example.testhw2
+package com.example.testhw2.movieItems
 
 data class Movie(
     val title: String,

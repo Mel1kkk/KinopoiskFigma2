@@ -1,7 +1,6 @@
-package com.example.testhw2
+package com.example.testhw2.movieItems
 
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyRow
@@ -10,6 +9,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import com.example.testhw2.entities.ShowAllButton
 
 // отображение секции с заголовком и списком фильмов
 @Composable

@@ -1,4 +1,4 @@
-package com.example.testhw2;
+package com.example.testhw2.movieItems
 
 import GradientBox
 import androidx.compose.foundation.background
@@ -20,6 +20,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.testhw2.movieItems.imageLoader.LoadImage
 import graphik
 
 // Изображение фильма с его жанром и рейтингом
